@@ -1,0 +1,18 @@
+function OddOrEvenFactory(request) {
+    if (request == "Odd") {
+        return function (n) {
+            console.log(!(n % 2 == 0));
+        }
+    }
+    else if (request == "Even") {
+        return function (n) {
+            console.log(n % 2 == 0);
+        }
+    }
+    else 
+    {
+        console.log("Wrong Request");
+    }
+}
+
+let request = "Odd"; //Even

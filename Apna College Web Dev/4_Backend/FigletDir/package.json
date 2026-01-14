@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "figlet": "^1.8.1",
+    "figma": "^0.0.1"
+  }
+}

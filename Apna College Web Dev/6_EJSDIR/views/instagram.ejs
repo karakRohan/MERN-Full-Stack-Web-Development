@@ -1,0 +1,39 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <!-- <h2>This Page Belongs to @<%= username %></h2> -->
+    <h2>This Page Belongs to @<%= data.name %>
+    </h2>
+    <button>Follow</button>
+    <button>Message</button>
+
+
+    <!-- <% if(diceVal==6) { %>
+        <h2>Nice! Roll Dice Again.</h2>
+    <% } %> -->
+
+    <!-- <h3>Accounts That Follow You : </h3>
+    <ul>
+        <% for(let name of followers) { %>
+            <li> <%= name %> </li>
+            <% } %>
+    </ul> -->
+
+    <p>
+        followers : <%= data.followers %> &nbsp; &nbsp; following : <%= data.following %>
+    </p>
+
+    <hr />
+
+    <% for(let post of data.posts){ %>
+        <img src="<%= post.image %>" alt="some img">
+        <p>
+            links : <%= post.likes %> &nbsp; &nbsp; comments : <%= post.comments %>
+        </p>
+        <% } %>
+
+        <%- include("includes/footer.ejs") %>
+
+</body>
+<script src="/app.js"></script>
+
+</html>
