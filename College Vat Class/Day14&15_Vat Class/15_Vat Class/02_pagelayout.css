@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-color: 10px;
+    background-color: white;
+}
+.header{
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+}
+.header h1{
+    font-size: 50px;
+}
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    background-color: white;
+    color: red;
+}
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+.rightcolumn{
+    float: left;
+    width: 25%;
+    background-color: greenyellow;
+    padding: 20px;
+}
+.fimg{
+    background-color: yellow;
+    width: 100%;
+    padding: 20px;
+}
+.card{
+    background-color: rgb(241, 13, 196);
+    padding: 20px;
+    margin-top: 20px;
+}
+#r1{
+    height: 146px;
+}
+.footer{
+    padding: 20px;
+    background-color: orange;
+    margin-top: 20px ;
+    text-align: center;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive Layout :- When The Screen Is less than 800px wide,make the two column stack on the top of each other instead of next to each other  */
+@media screen and (max-width:800px){
+    .leftcolumn,.rightcolumn{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:400px){
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+}

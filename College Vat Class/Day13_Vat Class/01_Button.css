@@ -1,0 +1,58 @@
+.a1{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+
+.a2{
+    background-color: white;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 2px;
+}
+.a3{
+    background-color: white;
+    color: black;
+    border: 2px solid greenyellow;
+}
+.a4{
+    background-color: white;
+    color: black;
+    border: 2px solid palevioletred;
+    border-radius: 40px;
+}
+.a5{
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+}
+.a1:hover{
+    background-color: orange;
+    color: green;
+}
+.a2:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.a3:hover{
+    background-image: linear-gradient(100deg,orangered,lightgreen, blue );
+    color: green;
+}
+.a4:hover{
+    background-image: linear-gradient(100deg,orangered,lightgreen, red );
+    color: green;
+}
+.a5:hover{
+    background-image: linear-gradient(100deg,orangered,lightgreen );
+    color: green;
+}
+.r{
+    /* border: none; */
+    margin: 4px 2px;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 25px;
+}
+body{
+    background-image: linear-gradient(100deg,pink,yellow,green, blue);
+}

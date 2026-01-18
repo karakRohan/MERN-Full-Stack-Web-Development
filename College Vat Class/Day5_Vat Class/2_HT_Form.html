@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+
+  form{
+    background-color:rgb(0, 255, 26);
+    border: 3px solid rgba(0, 0, 0, 0.993);
+    width: 400px; height: 500px;
+  }
+
+
+ </style>
+</head>
+
+<body>
+ 
+    
+    <form action="">
+        <h2>Student's Registration Form</h2>
+        <div>
+            <label for="fullname">Full Name : </label>
+            <input type="text" name="fullname" id="fullname" value="Enter Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" value="Enter your Email" >
+        </div>
+        <br>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" value="Enter Your Password">
+        </div>
+
+        <br>
+        <div>
+            <label for="dob">Date Of Birth : </label>
+            <input type="date" name="dob" id="dob">
+        </div>
+
+        <br>
+        <div>
+            <label for="photo">Choose Your Photo</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+        </div>
+        <br>
+        <div>
+            <label for="Religion">Religion : </label>
+            <input type="checkbox" name="Religion" id="religion">Hindu
+            <input type="checkbox" name="Religion" id="religion">Islam
+            <input type="checkbox" name="Religion" id="religion">Christ
+        </div>
+        <br>
+        <div>
+            <label for="department">Department : </label>
+
+            <select name="deparment" id="deparment">
+
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="EE">EE</option>
+                <option value="ME">ME</option>
+                <option value="AIML">AIML</option>
+                <option value="CSBS">CSBS</option>
+
+            </select>
+
+
+        </div><br>
+     <div>
+       <label for="feedback">Feedback : </label><br>
+       <textarea name="feedback" id="feedback" value="Enter Your Feedback"></textarea>
+     </div><br>
+
+     <div>
+     <label for="Finally">Finally : </label>
+     <input type="submit" value="Register">
+     <input type="Reset" value="clear">
+     </div>
+ 
+
+    </form>
+
+
+
+
+ </body>
+
+ </html>

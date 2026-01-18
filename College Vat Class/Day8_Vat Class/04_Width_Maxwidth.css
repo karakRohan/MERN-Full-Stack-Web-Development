@@ -1,0 +1,19 @@
+p
+{
+    background-color: brown;
+    color: white;
+    padding: 16px;
+    margin: 16px;
+    border: 3px solid blue;
+    color: aliceblue; 
+}
+
+
+#p1
+{
+    width: 800px;
+}
+#p2
+{
+    max-width: 800px;
+}

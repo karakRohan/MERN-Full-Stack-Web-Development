@@ -1,0 +1,16 @@
+div h1:hover
+{
+    color: rgb(255, 204, 0);
+    text-align: center;
+    font-size: 50px;
+}
+
+button:disabled
+{
+    background-color: aqua;
+}
+
+input:hover
+{
+    background-color: aquamarine;
+}

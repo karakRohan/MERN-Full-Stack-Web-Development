@@ -1,0 +1,41 @@
+h1{
+    color: red;
+}
+#r1{
+    border: 2px dotted green;
+}
+#r2{
+    border: 2px dashed palevioletred;
+}
+#r3{
+    border: 2px solid blue;
+}
+#r4{
+    border: 5px double orange;
+}
+#r5{
+    border: 7px groove mediumspringgreen;
+}
+#r6{
+    border: 10px ridge yellow;
+}
+#r7{
+    border: 4px inset sandybrown;
+}
+#r8{
+    border: 4px outset indigo;
+}
+#r9{
+    bottom: 2px none red;
+}
+#r10{
+    border: 4px hidden red;
+}
+#r11{
+    border-style: dashed double solid dotted;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}

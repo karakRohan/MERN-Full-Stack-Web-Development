@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(236, 225, 73), rgb(62, 192, 192));
+    /* background-color: rgba(60, 243, 243, 0.726); */
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+.image {
+    text-align: center;
+}
+
+div.Sticky {
+    position: -webkit-sticky;
+    text-align: center;
+    position: sticky;
+    /* background-color: rgb(250, 170, 170); */
+    background: linear-gradient(to right, rgb(250, 233, 0), rgb(0, 255, 255));
+    top: 0;
+    padding: 1px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+#img {
+    align-items: center;
+
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.news,
+.course-schedule,
+.resources,
+.contact {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+details summary {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+}

@@ -1,0 +1,24 @@
+h1{
+    font-size: 6rem; /* 1rem=16px */
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: blue; */
+    /*color:rgb(40,100,115); */ /*red green blue (min:0 and maxi:255) */
+
+    color:rgba(252,0,0,0.9); /* alpha range (min:0.1 and maxi:0.9) */
+
+    text-decoration: underline;
+    text-shadow: 0.1rem 0.2rem green;
+}
+
+
+p
+{
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 3;
+}
+
+a{
+    text-decoration: none;
+}

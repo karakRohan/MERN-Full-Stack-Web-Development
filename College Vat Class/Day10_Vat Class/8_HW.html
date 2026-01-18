@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Student Portal</title>
+    <style>
+        body {
+            background-color: #f59191;
+            font-family: Arial, sans-serif;
+        }
+        .header, .footer {
+            text-align: center;
+            padding: 10px;
+        }
+        .content {
+            margin: 20px;
+        }
+        .upcoming-events, .useful-links, .academic-calendar {
+            margin: 20px 0;
+        }
+        .academic-calendar table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .academic-calendar table, .academic-calendar th, .academic-calendar td {
+            border: 1px solid black;
+        }
+        .academic-calendar th, .academic-calendar td {
+            padding: 10px;
+            text-align: left;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the College Student Portal</h1>
+        <p>Stay updated with the latest campus news, links, and resources.</p>
+        <img src="pngnseclogo.png" alt="College Logo" width="100">
+    </div>
+    <div class="content">
+        <div class="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <p>Don't miss our next big event! Join us for the <span class="highlight">Annual Science Fair</span> next week.</p>
+            <p><a href="#">Click here for more event details</a></p>
+            <details>
+                <summary>Event Details</summary>
+                <p>Details about the event go here.</p>
+            </details>
+        </div>
+        <div class="useful-links">
+            <h2>Useful Links for Students</h2>
+            <ul>
+                <li><a href="#">Course Catalog</a></li>
+                <li><a href="#">Class Schedules</a></li>
+                <li><a href="#">Campus Map</a></li>
+                <li><a href="#">Contact Information</a></li>
+            </ul>
+        </div>
+        <div class="academic-calendar">
+            <h2>2024 Academic Calendar</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                </tr>
+                <tr>
+                    <td>September 1</td>
+                    <td>Fall Semester Begins</td>
+                </tr>
+                <tr>
+                    <td>November 25-29</td>
+                    <td>Thanksgiving Recess</td>
+                </tr>
+                <tr>
+                    <td>December 20</td>
+                    <td>Fall Semester Ends</td>
+                </tr>
+                <tr>
+                    <td>January 15</td>
+                    <td>Winter Semester Begins</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 College Student Portal. All rights reserved.</p>
+    </div>
+</body>
+</html>

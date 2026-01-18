@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Student Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            max-width: 100px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        .events {
+            margin-top: 20px;
+        }
+        .events a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .events a:hover {
+            text-decoration: underline;
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .links div {
+            flex: 1;
+        }
+        .links a {
+            display: block;
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .calendar {
+            margin-top: 20px;
+        }
+        .calendar table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .calendar th, .calendar td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>College Student Portal</h1>
+</header>
+
+<div class="container">
+    <div class="logo">
+        <img src="pngnseclogo.png" alt="College Logo">
+    </div>
+
+    <section class="events">
+        <h2 class="section-title">Upcoming Events</h2>
+        <p>Don't miss our next big event! Join us for the <a href="#">Annual Science Fair</a> next week.</p>
+    </section>
+
+    <section class="links">
+        <div>
+            <h2 class="section-title">Useful Links for Students</h2>
+            <a href="#">Course Catalog</a>
+            <a href="#">Class Schedules</a>
+            <a href="#">Campus Map</a>
+            <a href="#">Contact Information</a>
+        </div>
+        <div>
+            <h2 class="section-title">2024 Academic Calendar</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                </tr>
+                <tr>
+                    <td>September 1</td>
+                    <td>Fall Semester Begins</td>
+                </tr>
+                <tr>
+                    <td>November 25-29</td>
+                    <td>Thanksgiving Recess</td>
+                </tr>
+                <tr>
+                    <td>December 20</td>
+                    <td>Fall Semester Ends</td>
+                </tr>
+                <tr>
+                    <td>January 15</td>
+                    <td>Winter Semester Begins</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 College Student Portal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
